@@ -6,8 +6,7 @@
   "keywords": [
     "css",
     "oocss",
-    "",
-    ""
+    "position"
   ],
   "css-position": {
     "type": "git",
