@@ -64,7 +64,7 @@ or download the css on github and include in your project.
 
 .center { margin: 0 auto; }
 
-@include break(not-small) {
+@media screen and (min-width: 48em) {
   .pos-stat-ns { position: static; }
   .pos-rel-ns  { position: relative; }
   .pos-abs-ns  { position: absolute; }
@@ -100,7 +100,7 @@ or download the css on github and include in your project.
   .center-ns { margin: 0 auto; }
 }
 
-@include break(medium) {
+@media screen and (min-width:48em) and (max-width: 64em) {
   .pos-stat-m { position: static; }
   .pos-rel-m  { position: relative; }
   .pos-abs-m  { position: absolute; }
@@ -136,7 +136,7 @@ or download the css on github and include in your project.
   .center-m { margin: 0 auto; }
 }
 
-@include break(large) {
+@media screen and (min-width: 64em) {
   .pos-stat-l { position: static; }
   .pos-rel-l  { position: relative; }
   .pos-abs-l  { position: absolute; }
