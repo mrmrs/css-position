@@ -9,13 +9,19 @@
 *  -l  = large
 
 ## Install
+Grab the css partial from github and include it in your project or alternatively
+you can install it via npm:
 ```
 npm install --save-dev css-position
 ```
-or download the css on github and include in your project.
+View on [npm](https://www.npmjs.org/package/css-position)
+
 
 ## File Size
 
+4.0K position.css
+2.8K position.min.css
+-rw-r--r--  1    2.8K Jul 16 21:09 position.min.min.css
 
 ## The Code
 ```
