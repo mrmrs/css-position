@@ -20,8 +20,9 @@ View on [npm](https://www.npmjs.org/package/css-position)
 ## File Size
 
 4.0K position.css
-2.8K position.min.css
--rw-r--r--  1    2.8K Jul 16 21:09 position.min.min.css
+2.8K position.min.css 
+622B minified and gzipped
+
 
 ## The Code
 ```
