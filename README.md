@@ -20,7 +20,7 @@ View on [npm](https://www.npmjs.org/package/css-position)
 ## File Size
 
 4.0K position.css
-2.8K position.min.css 
+2.8K position.min.css
 622B minified and gzipped
 
 
@@ -190,7 +190,7 @@ View on [npm](https://www.npmjs.org/package/css-position)
 
 The MIT License (MIT)
 
-Copyright (c) 2014 @mrmrs
+Copyright (c) 2015 @mrmrs
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
