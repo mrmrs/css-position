@@ -1,7 +1,7 @@
 {
   "name": "css-position",
   "style": "position.css",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "homepage": "http://github.com/mrmrs/css-position",
   "description": "Css module of single purpose classes for position",
   "keywords": [
