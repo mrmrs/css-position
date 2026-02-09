@@ -2,7 +2,7 @@ const fs = require('fs');
 const path = require('path');
 const { transform } = require('lightningcss');
 
-const srcFile = path.join(__dirname, 'src', 'css-position.css');
+const srcFile = path.join(__dirname, 'src', 'position.css');
 const distDir = path.join(__dirname, 'dist');
 
 // Read source
@@ -15,22 +15,22 @@ if (!fs.existsSync(distDir)) {
 
 // Unminified — just normalize formatting
 const { code: unminified } = transform({
-  filename: 'css-position.css',
+  filename: 'position.css',
   code: Buffer.from(source),
   minify: false,
 });
 
-fs.writeFileSync(path.join(distDir, 'css-position.css'), unminified);
+fs.writeFileSync(path.join(distDir, 'position.css'), unminified);
 
 // Minified
 const { code: minified } = transform({
-  filename: 'css-position.css',
+  filename: 'position.css',
   code: Buffer.from(source),
   minify: true,
 });
 
-fs.writeFileSync(path.join(distDir, 'css-position.min.css'), minified);
+fs.writeFileSync(path.join(distDir, 'position.min.css'), minified);
 
 console.log('Build complete:');
-console.log(`  dist/css-position.css     ${unminified.length} bytes`);
-console.log(`  dist/css-position.min.css ${minified.length} bytes`);
+console.log(`  dist/position.css     ${unminified.length} bytes`);
+console.log(`  dist/position.min.css ${minified.length} bytes`);
