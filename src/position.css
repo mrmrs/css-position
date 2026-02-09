@@ -47,7 +47,7 @@
 
 .center { margin: 0 auto; }
 
-@media screen and (min-width: 48em) {
+@media screen and (min-width: 32em) {
   .pos-stat-s { position: static; }
   .pos-rel-s  { position: relative; }
   .pos-abs-s  { position: absolute; }
@@ -83,7 +83,7 @@
   .center-s { margin: 0 auto; }
 }
 
-@media screen and (min-width:48em) and (max-width: 64em) {
+@media screen and (min-width:48em) {
   .pos-stat-m { position: static; }
   .pos-rel-m  { position: relative; }
   .pos-abs-m  { position: absolute; }
@@ -119,7 +119,7 @@
   .center-m { margin: 0 auto; }
 }
 
-@media screen and (min-width: 64em) {
+@media screen and (min-width: 96em) {
   .pos-stat-l { position: static; }
   .pos-rel-l  { position: relative; }
   .pos-abs-l  { position: absolute; }
