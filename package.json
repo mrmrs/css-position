@@ -1,38 +1,44 @@
 {
   "name": "css-position",
-  "style": "position.css",
-  "version": "1.0.7",
-  "homepage": "http://github.com/mrmrs/css-position",
-  "description": "Css module of single purpose classes for position",
+  "version": "2.0.0",
+  "description": "Functional CSS for position",
+  "style": "dist/position.css",
+  "main": "dist/position.css",
+  "exports": {
+    ".": "./dist/position.css",
+    "./dist/*": "./dist/*",
+    "./src/*": "./src/*"
+  },
+  "files": [
+    "dist",
+    "src"
+  ],
+  "scripts": {
+    "build": "node build.js",
+    "prepublishOnly": "npm run build"
+  },
   "keywords": [
     "css",
-    "oocss",
-    "position"
+    "position",
+    "utility",
+    "single-purpose",
+    "functional-css"
   ],
-  "css-position": {
+  "homepage": "https://github.com/mrmrs/css-position",
+  "repository": {
     "type": "git",
-    "url": "http://github.com/mrmrs/css-position.git"
+    "url": "https://github.com/mrmrs/css-position.git"
   },
   "bugs": {
-    "url": "https://github.com/mrmrs/css-position/issues",
-    "email": "hi@mrmrs.cc"
+    "url": "https://github.com/mrmrs/css-position/issues"
   },
   "author": {
     "name": "Adam Morse",
     "email": "hi@mrmrs.cc",
     "url": "http://mrmrs.cc"
   },
-  "contributors": [
-    {
-      "name": "Adam Morse",
-      "email": "hi@mrmrs.cc"
-    }
-  ],
-  "license": "MIT",
+  "license": "ISC",
   "devDependencies": {
     "lightningcss": "^1"
-  },
-  "scripts": {
-    "build": "node build.js"
   }
 }
